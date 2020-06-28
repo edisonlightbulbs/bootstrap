@@ -28,7 +28,7 @@ sudo apt install snapd
 
 
 # -- update
-sudo apt update 
+sudo apt update
 
 
 # -- installing zsh

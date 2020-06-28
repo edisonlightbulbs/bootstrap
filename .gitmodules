@@ -1,0 +1,3 @@
+[submodule "offline/Ubuntu/resources/exa"]
+	path = offline/Ubuntu/resources/exa
+	url = git@github.com:antiqueeverett/exa.git
