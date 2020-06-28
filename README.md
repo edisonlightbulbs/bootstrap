@@ -1,4 +1,6 @@
-# Customizable Helper scripts to get things moving along a bit faster.
+#### Customizable Helper scripts to get things moving along a bit faster.
+
+---
 
 Intuitive and customizable scripts to help reinstall application in macos and ubuntu after a system wipe install.
 
@@ -6,7 +8,7 @@ Intuitive and customizable scripts to help reinstall application in macos and ub
 
 * in macOS
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/edisonlightbulbs/bootstrap/master/install.command)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/edisonslightbulbs/bootstrap/master/online/macOS/install.command)"
 ```
 
 * in Ubuntu 
@@ -30,7 +32,7 @@ cd resources/tilix
 `Comming soon!`
 
 ## Handy?
-[ star ](https://github.com/edisonslightbulbs/bootstrap/star) if it was handy.
+[ star ](https://github.com/edisonslightbulbs/bootstrap/star) if it came handy.
 
 [ fork ](https://github.com/edisonslightbulbs/bootstrap/fork) if you liked.
 
