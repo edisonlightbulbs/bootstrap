@@ -9,7 +9,7 @@ sudo apt-get install curl -y
 curl https://sh.rustup.rs -sSf | sh
 
 
-# -- adding personal package archives (ppa):
+# -- adding personal package archives:
 
 # obs
 sudo add-apt-repository ppa:obsproject/obs-studio
@@ -17,6 +17,11 @@ sudo add-apt-repository ppa:obsproject/obs-studio
 # openrazer
 sudo add-apt-repository ppa:openrazer/stable
 sudo add-apt-repository ppa:polychromatic/stable
+
+# microsoft (for the Azure Kinect)
+curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+sudo apt-add-repository https://packages.microsoft.com/ubuntu/19.04/prod
+
 
 # -- installing snap
 sudo apt install snapd
@@ -65,9 +70,3 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 # -- installing sublime
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-
-
-# --installing dropbox <----- causes install script to hang
-# cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
-# ~/.dropbox-dist/dropboxd
-
