@@ -14,10 +14,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/edisonslightbulbs/bootstra
 * in Ubuntu 
 ```
 # install git
-sudo apt-get install git 
+sudo apt-get install git -y
 
 # -- clone repo
-git clone git@github.com:edisonslightbulbs/bootstrap.git
+git clone https://github.com/edisonslightbulbs/bootstrap.git
 
 # -- run the install script
 cd bootstrap/offline/Ubuntu
