@@ -10,11 +10,20 @@ curl https://sh.rustup.rs -sSf | sh
 
 
 # -- adding personal package archives (ppa):
+
+# obs
 sudo add-apt-repository ppa:obsproject/obs-studio
 
+# openrazer
+sudo add-apt-repository ppa:openrazer/stable
+sudo add-apt-repository ppa:polychromatic/stable
 
 # -- installing snap
 sudo apt install snapd
+
+
+# -- update
+sudo apt update 
 
 
 # -- installing zsh
@@ -39,12 +48,11 @@ sudo chsh -s /usr/bin/zsh root
 #        remain unchanged for use by apt-get.
 #
 cd 'resources/packages'
-xargs -a <(awk '! /^ *(#|$)/' "dev-languages.txt ") -r -- sudo apt-get -y install
 xargs -a <(awk '! /^ *(#|$)/' "dependencies.txt") -r -- sudo apt-get -y install
 xargs -a <(awk '! /^ *(#|$)/' "opengl.txt") -r -- sudo apt-get -y install
-xargs -a <(awk '! /^ *(#|$)/' "tools.txt") -r -- sudo apt-get -y install
+xargs -a <(awk '! /^ *(#|$)/' "dev.txt ") -r -- sudo apt-get -y install
 xargs -a <(awk '! /^ *(#|$)/' "git.txt") -r -- sudo apt-get -y install
-xargs -a <(awk '! /^ *(#|$)/' "snap-dev-environment.txt ") -r -- sudo snap install
+xargs -a <(awk '! /^ *(#|$)/' "snap.txt ") -r -- sudo snap install
 cd -
 # ------------------- package installation -------------------
 
@@ -59,7 +67,7 @@ wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 
 
-# --installing dropbox
-cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
-~/.dropbox-dist/dropboxd
+# --installing dropbox <----- causes install script to hang
+# cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+# ~/.dropbox-dist/dropboxd
 

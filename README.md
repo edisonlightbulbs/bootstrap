@@ -17,7 +17,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/edisonslightbulbs/bootstra
 git clone git@github.com:edisonslightbulbs/bootstrap.git
 
 # -- run the install script
-cd offline/Ubuntu
+cd bootstrap/offline/Ubuntu
 ./install.sh
 
 # -- font script (optional)

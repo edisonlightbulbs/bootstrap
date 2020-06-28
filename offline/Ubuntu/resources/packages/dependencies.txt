@@ -1,7 +1,8 @@
+vim
 fzf
 fzy
 gpg
-ccat
+coreutils
 wget
 lynx
 tmux
@@ -26,4 +27,3 @@ openrazer-meta
 exuberant-ctags
 pandoc-citeproc
 gnome-tweak-tool
-apt-transport-http
