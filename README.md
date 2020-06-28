@@ -1,10 +1,10 @@
-#### Customizable Helper scripts to get things moving along a bit faster.
+### Customizable Helper scripts to get things moving along a bit faster.
+
+Intuitive and customizable scripts to help reinstall applications after a fresh install.
+
+#### Usage:
 
 ---
-
-Intuitive and customizable scripts to help reinstall application in macos and ubuntu after a system wipe install.
-
-## Usage:
 
 * in macOS
 ```
@@ -28,16 +28,19 @@ cd resources/tilix
 ./configure.sh # personal tilix config file
 ```
 
-## Screen cast
+---
+
+#### Screen cast
+
 `Comming soon!`
 
-## Handy?
+#### Handy?
+
 [ star ](https://github.com/edisonslightbulbs/bootstrap/star) if it came handy.
 
 [ fork ](https://github.com/edisonslightbulbs/bootstrap/fork) if you liked.
 
 [ follow ](https://github.com/edisonslightbulbs/bootstrap/subscription) if you loved.
 
-## Declaimer
-Any utility provided by this repository is for informative/educational purposes and also, subject to experimental changes.
+###### DISCLAIMER: Any utility provided by this repository is for informative/educational purposes and also, subject to experimental changes.
 
