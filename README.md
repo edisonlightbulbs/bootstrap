@@ -22,13 +22,19 @@ git clone https://github.com/edisonslightbulbs/bootstrap.git
 # -- run the install script
 cd bootstrap/offline/Ubuntu
 ./install.sh
-
+```
+Here are a couple of custom options
+```
 # -- font script (optional)
 ./font.sh # fira-code-nerd-font
 
 # -- tilix config (optional)
 cd resources/tilix
 ./configure.sh # personal tilix config file
+
+# -- installing exa (optional)
+cd resources/exa # exa is a git submodule (you may need to initialize it if empty)
+sudo make install
 ```
 
 ---
