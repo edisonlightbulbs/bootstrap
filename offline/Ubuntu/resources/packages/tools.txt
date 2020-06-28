@@ -1,0 +1,6 @@
+vlc
+vim
+spotify
+sublime-text
+obs-studio
+mendeleydesktop

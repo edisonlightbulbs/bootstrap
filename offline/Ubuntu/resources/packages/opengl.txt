@@ -1,0 +1,14 @@
+libglm-dev
+libglew-dev
+glew-utils
+libglfw3-dev
+libsdl2-dev
+freeglut3-dev
+libassimp-dev
+libsoil-dev
+libdevil-dev
+libdevil1c2
+libfreeimage-dev
+libfreeimageplus-dev
+libfreeimage3
+libfreeimageplus3
