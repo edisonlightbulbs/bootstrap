@@ -42,5 +42,6 @@ cd resources/tilix
 
 [ follow ](https://github.com/edisonslightbulbs/bootstrap/subscription) if you loved.
 
-###### DISCLAIMER: Any utility provided by this repository is for informative/educational purposes and also, subject to experimental changes.
+###### DISCLAIMER: 
+###### Any utility provided by this repository is for informative/educational purposes and also, subject to experimental changes.
 
