@@ -13,6 +13,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/edisonslightbulbs/bootstra
 
 * in Ubuntu 
 ```
+# install git
+sudo apt-get install git 
+
 # -- clone repo
 git clone git@github.com:edisonslightbulbs/bootstrap.git
 
