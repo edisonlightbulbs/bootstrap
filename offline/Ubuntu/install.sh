@@ -27,7 +27,7 @@ sudo apt update
 
 
 # -- installing zsh
-sudo apt install zsh
+sudo apt install zsh -y
 sudo chsh -s /usr/bin/zsh root
 # !! TO USE ZSH
 #    open terminal:
