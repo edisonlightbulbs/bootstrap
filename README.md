@@ -47,7 +47,7 @@ sudo make install
 
 [ fork ](https://github.com/edisonslightbulbs/bootstrap/fork) and contribute.
 
-[ follow ](https://github.com/edisonslightbulbs/bootstrap/subscription) to keep up with updates.
+[ watch ](https://github.com/edisonslightbulbs/bootstrap/subscription) to keep up with updates.
 
 ###### DISCLAIMER: 
 ###### Utility provided in this repository is academic and subject to experimental changes.
