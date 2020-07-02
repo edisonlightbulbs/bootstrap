@@ -18,11 +18,6 @@ sudo add-apt-repository ppa:obsproject/obs-studio
 sudo add-apt-repository ppa:openrazer/stable
 sudo add-apt-repository ppa:polychromatic/stable
 
-# microsoft (for the Azure Kinect)
-curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
-sudo apt-add-repository https://packages.microsoft.com/ubuntu/19.04/prod
-
-
 # -- installing snap
 sudo apt install snapd
 
