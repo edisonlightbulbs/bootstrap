@@ -4,9 +4,11 @@
 #    2. Rust
 
 
-# -- install script dependencies
+# -- installing dependencies
 sudo apt-get install curl -y
 curl https://sh.rustup.rs -sSf | sh
+wget -c https://dl.google.com/go/go1.14.2.linux-amd64.tar.gz -O - | sudo tar -xz -C /usr/local
+export PATH=$PATH:/usr/local/go/bin
 
 
 # -- adding personal package archives:
