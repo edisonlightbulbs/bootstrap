@@ -45,10 +45,10 @@ sudo make install
 
 #### Handy?
 
-[ fork ](https://github.com/edisonslightbulbs/bootstrap/fork) and contribute.
+[ fork ](https://github.com/edisonslightbulbs/bootstrap/fork) and contribute!
 
-[ watch ](https://github.com/edisonslightbulbs/bootstrap/subscription) to keep up with updates.
+[ watch ](https://github.com/edisonslightbulbs/bootstrap/subscription) to keep up with all updates
 
-###### DISCLAIMER: 
+#### DISCLAIMER 
 ###### Utility provided in this repository is academic and subject to experimental changes.
 
