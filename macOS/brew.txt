@@ -31,3 +31,12 @@ go
 python3
 nodejs
 neomutt/homebrew-neomutt/neomutt
+the_silver_searcher
+tidy-html5
+xml
+shfmt
+llvm
+C
+CXX
+perl
+cpanm
