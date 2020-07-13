@@ -9,12 +9,19 @@ respectively. To use them, simply clone the repo and run the install scripts fro
 git clone --recursive https://github.com/edisonslightbulbs/bootstrap.git
 ```
 
-The scripts are built around lists of applications ( in `<application>.txt` files),
-which one can easily customize (add, delete apps to your liking).
-With somewhat a lack of imagination on my part, I hope the names given to the
-<application>.txt files are self-explanatory.
+The scripts are built around lists of applications where one can easily add or delete apps.
+With somewhat a lack of imagination on my part, the names of wach application list should 
+pretty much give away what **type** of application goes to **which application list**.
+   
+   ```
+   apt.txt
+   snap.txt
+   
+   brew.txt
+   brew_cask.txt
+   ```
 
-Be sure to check out the resources directory while you are at it! There might be convenience scripts in there that could come in handy as well.
+Be sure to check out the resources directory while you are at it! There might be more goodness in there that could come in handy as well.
 
 * * *
 
@@ -28,7 +35,7 @@ If there is a better way around something, or, if I'm just plain wrong about som
 
 #### Promotion
 
-Worth a second look? Let's propagate to fill all the nooks and crannies that people want it to fill!
+Worth a second look? Lets fill all these nooks and crannies together.
 If you are interested in chatting about day-to-day tools like git and vim,
 let's get into it on [ twitter ](https://twitter.com/antiqueeverett) and [ youtube](https://www.youtube.com/channel/UCKkeK-xQiIWc3jzBbUel9ww?view_as=subscriber).
 
