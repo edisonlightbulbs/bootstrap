@@ -5,3 +5,4 @@ spotify
 sublime-text
 obs-studio
 pomotroid
+shfmt
