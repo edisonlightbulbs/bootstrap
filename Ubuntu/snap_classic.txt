@@ -1,0 +1,2 @@
+clion --classic
+pycharm-community --classic

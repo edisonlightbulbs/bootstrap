@@ -1,8 +1,0 @@
-build-essential
-g++
-libboost-all-dev
-cmake
-pkgconf
-default-jre
-openjdk-11-jre-headless
-openjdk-8-jre-headless

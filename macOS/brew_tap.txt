@@ -1,0 +1,2 @@
+jhawthorn/fzy
+homebrew/cask-fonts

@@ -1,8 +1,0 @@
-clion --classic
-pycharm-community --classic
-android-studio
-intellij-idea-ultimate
-vlc
-spotify
-sublime-text
-obs-studio
