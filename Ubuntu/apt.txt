@@ -65,3 +65,4 @@ silversearcher-ag
 curl
 snapd
 python3-pip
+cpanminus
