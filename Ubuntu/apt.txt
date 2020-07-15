@@ -67,3 +67,4 @@ snapd
 python3-pip
 cpanminus
 python-autopep8
+libpcl-dev
