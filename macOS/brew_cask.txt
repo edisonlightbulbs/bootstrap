@@ -25,3 +25,4 @@ dropbox
 google-drive-file-stream
 font-fira-code-nerd-font
 meshlab
+cloudcompare
