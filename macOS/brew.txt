@@ -42,3 +42,4 @@ perl
 cpanm
 autopep8
 pcl
+ninja
