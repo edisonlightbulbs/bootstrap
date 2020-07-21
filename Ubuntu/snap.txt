@@ -6,3 +6,4 @@ sublime-text
 obs-studio
 pomotroid
 shfmt
+gimp
