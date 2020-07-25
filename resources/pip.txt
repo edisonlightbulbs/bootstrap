@@ -1,3 +1,4 @@
 cmake-format
 yapf
 black
+cmakelint
