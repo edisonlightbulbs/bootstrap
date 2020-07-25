@@ -69,3 +69,4 @@ cpanminus
 python-autopep8
 libpcl-dev
 meshlab
+shellcheck
