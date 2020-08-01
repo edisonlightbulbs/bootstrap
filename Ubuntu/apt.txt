@@ -72,3 +72,4 @@ meshlab
 shellcheck
 cppcheck
 flawfinder
+clang-tidy
