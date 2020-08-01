@@ -44,3 +44,6 @@ autopep8
 pcl
 ninja
 shellcheck
+cppcheck
+cquery
+flawfinder
