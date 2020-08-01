@@ -70,3 +70,5 @@ python-autopep8
 libpcl-dev
 meshlab
 shellcheck
+cppcheck
+flawfinder
