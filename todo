@@ -1,0 +1,3 @@
+yarn global add vim-language-server
+sudo apt install cmdtest
+sudo npm install -g yarn
