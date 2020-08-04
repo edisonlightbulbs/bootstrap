@@ -2,3 +2,4 @@ yarn global add vim-language-server
 sudo apt install cmdtest
 sudo npm install -g yarn
 apt-get install shellcheck
+sudo apt-get install gnome-shell-pomodoro
