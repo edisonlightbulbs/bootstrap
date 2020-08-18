@@ -6,3 +6,7 @@ sudo apt-get install gnome-shell-pomodoro
 
 sudo apt install libgoogle-glog-dev
 sudo apt-get install libgflags-dev
+
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py # then andd pip dir to path
+python3 get-pip.py
