@@ -1,13 +1,16 @@
-yarn global add vim-language-server
-sudo apt install cmdtest
+sudo apt-get install:
+neomutt
+gnome-shell-pomodoro
+shellcheck
+libgoogle-glog-dev
+libgflags-dev
+cmdtest
+
 sudo npm install -g yarn
-apt-get install shellcheck
-sudo apt-get install gnome-shell-pomodoro
+yarn global add vim-language-server
 
-sudo apt install libgoogle-glog-dev
-sudo apt-get install libgflags-dev
 
-trouble shooting nvim
+# trouble shooting nvim
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py # then andd pip dir to path
 python3 get-pip.py
