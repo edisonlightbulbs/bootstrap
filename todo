@@ -20,3 +20,14 @@ python3 get-pip.py
 brew install golang
 brew install gflags
 brew install glog
+see:
+https://embeddedartistry.com/blog/2017/02/24/installing-llvm-clang-on-osx/
+# Configure the local shell only (not persistent) to use the Homebrew LLVM
+# toolchain in favour of the default Apple version.  This is taken
+# verbatim from the instructions output by Homebrew when installing the
+# llvm formula.
+export LDFLAGS="-L/usr/local/opt/llvm/lib -Wl,-rpath,/usr/local/opt/llvm/lib"
+export CPPFLAGS="-I/usr/local/opt/llvm/include"
+export PATH="/usr/local/opt/llvm/bin:$PATH"
+
+brew install automake
