@@ -16,3 +16,5 @@ python get-pip.py # then andd pip dir to path
 python3 get-pip.py
 /usr/bin/python3 -m pip install --user pynvim
 /usr/bin/python2 -m pip install --user pynvim
+
+brew install golang
