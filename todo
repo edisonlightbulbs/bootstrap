@@ -31,3 +31,4 @@ export CPPFLAGS="-I/usr/local/opt/llvm/include"
 export PATH="/usr/local/opt/llvm/bin:$PATH"
 
 brew install automake
+sudo apt-get install i3
