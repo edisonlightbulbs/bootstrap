@@ -33,6 +33,6 @@ export PATH="/usr/local/opt/llvm/bin:$PATH"
 brew install automake
 sudo apt-get install i3
 sudo apt-get install x11-xserver-utils
-xrandr --output eDP-1-1 --auto --output DP-1-1 --auto --left-of eDP-1-1 --output HDMI-0 --auto --left-of DP-1-1
-xrandr --output DP-1-1 --rotate right
+sudo apt-get install feh
+sudo apt-get install pavucontrol
 
