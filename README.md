@@ -1,4 +1,4 @@
-# RE-INSTALLING APPS AFTER A FRESH INSTALL ... EFFICIENTLY 👍
+# RE-INSTALLING APPS AFTER A FRESH INSTALL ... with a little less effort 👍
 
 #### Usage
 
