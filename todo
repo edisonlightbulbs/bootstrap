@@ -42,3 +42,4 @@ sudo wget -nv https://download.opensuse.org/repositories/home:manuelschneid3r/xU
 sudo apt update
 sudo apt install albert
 sudo apt install lxappearance
+sudo apt install i3blocks
