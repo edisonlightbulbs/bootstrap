@@ -55,3 +55,7 @@ printf ' %.s-- house keeping\n'
 brew cleanup
 
 printf ' %.s-- installation complete!\n'
+
+ln -s "/usr/local/opt/llvm/bin/clang-format" "/usr/local/bin/clang-format"
+
+ln -s "/usr/local/opt/llvm/bin/clang-tidy" "/usr/local/bin/clang-tidy"

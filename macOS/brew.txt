@@ -47,3 +47,9 @@ shellcheck
 cppcheck
 cquery
 flawfinder
+golang
+gflags
+glog
+automake
+llvm
+

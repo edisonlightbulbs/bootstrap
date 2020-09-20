@@ -24,14 +24,14 @@ xargs -a <(awk '! /^ *(#|$)/' "python3.txt") -r sudo python3 -m pip install
 
 sudo chsh -s /usr/bin/zsh root
 
-# -- xargs builds and executes commands from STDIN
-#    [ -a ] reading directly form the file, i.e., STDIN remains unchanged
-#           when commands are run.
-#    [ -r ] do not run if empty
+#          xargs builds and executes commands from STDIN
+#   [ -a ] reading directly form the file, i.e., STDIN remains unchanged
+#          when commands are run.
+#   [ -r ] do not run if empty
 
-# -- We use awk to pre-process each line in a given text file, handing over
-#    the output of each line to xargs. Piping the file directly to xargs would
-#    change STDIN (undesired!).
+#           We use awk to pre-process each line in a given text file, handing
+#           over the output of each line to xargs. Piping the file directly to
+#           xargs would change STDIN (undesired!).
 
-# -- awk allows us to process each line and hand it directly to xargs,
-#    leaving STDIN unchanged and ready for the <command>
+#           awk allows us to process each line and hand it directly to xargs,
+#           leaving STDIN unchanged and ready for the <command>
