@@ -79,3 +79,4 @@ libgoogle-glog-dev
 libgflags-dev
 cmdtest
 lxappearance
+pavucontrol
