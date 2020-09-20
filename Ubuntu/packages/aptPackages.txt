@@ -23,7 +23,6 @@ autojump
 leiningen
 texlive-full
 pinentry-tty
-polychromatic
 openrazer-meta
 exuberant-ctags
 pandoc-citeproc
@@ -66,10 +65,17 @@ curl
 snapd
 python3-pip
 cpanminus
-python-autopep8
+python3-autopep8
 libpcl-dev
 meshlab
 shellcheck
 cppcheck
 flawfinder
 clang-tidy
+neomutt
+gnome-shell-pomodoro
+shellcheck
+libgoogle-glog-dev
+libgflags-dev
+cmdtest
+lxappearance
