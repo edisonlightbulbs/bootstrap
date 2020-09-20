@@ -1,9 +1,0 @@
-android-studio
-intellij-idea-ultimate
-vlc
-spotify
-sublime-text
-obs-studio
-pomotroid
-shfmt
-gimp

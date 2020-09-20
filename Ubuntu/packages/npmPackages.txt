@@ -1,5 +1,3 @@
 js-beautify
 remark-cli
 yarn
-
-yarn global add vim-language-server
