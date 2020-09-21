@@ -80,3 +80,4 @@ libgflags-dev
 cmdtest
 lxappearance
 pavucontrol
+rofi
