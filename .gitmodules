@@ -1,3 +1,6 @@
 [submodule "offline/Ubuntu/resources/exa"]
 	path = offline/Ubuntu/resources/exa
 	url = git@github.com:antiqueeverett/exa.git
+[submodule "Ubuntu/latexindent.pl"]
+	path = Ubuntu/latexindent.pl
+	url = https://github.com/cmhughes/latexindent.pl.git
