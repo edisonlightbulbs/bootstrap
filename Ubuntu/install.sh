@@ -1,9 +1,5 @@
 #!/bin/bash
-# INSTALLS:
-#   1. aptPackages
-#   2. snapPackages
-#   3. pipPackages
-#   4. npnPackages
+# INSTALL PACKAGES LISTED IN Packages/*.txt:
 
 #  We use awk to pre-process each line in a given text file, handing over the
 #  output of each line to xargs. AWK Allows us to process each line and hand it
@@ -15,15 +11,14 @@
 sudo apt update
 
 # -- install apt packages
-xargs -a <(awk '! /^ *(#|$)/' "packages/aptPackages.txt") -r -- sudo apt-get -y install
+xargs -a <(awk '! /^ *(#|$)/' "packages/apt.txt") -r -- sudo apt-get -y install
 
 # -- pip install
-xargs -a <(awk '! /^ *(#|$)/' "packages/npmPackages.txt") -r -- sudo pip3 install
+xargs -a <(awk '! /^ *(#|$)/' "packages/npm.txt") -r -- sudo pip3 install
 
 ## -- npm install
-xargs -a <(awk '! /^ *(#|$)/' "packages/pipPackages.txt") -r -- sudo npm install -g
+xargs -a <(awk '! /^ *(#|$)/' "packages/pip3.txt") -r -- sudo npm install -g
 
 # -- python3 install
-xargs -a <(awk '! /^ *(#|$)/' "packages/py3Packages.txt") -r sudo python3 -m pip install
+xargs -a <(awk '! /^ *(#|$)/' "packages/py3.txt") -r sudo python3 -m pip install
 
-sudo chsh -s /usr/bin/zsh root
