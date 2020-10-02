@@ -81,3 +81,8 @@ cmdtest
 lxappearance
 pavucontrol
 rofi
+neovim
+xmonad
+libghc-xmonad-contrib-dev
+nitrogen
+xmobar
