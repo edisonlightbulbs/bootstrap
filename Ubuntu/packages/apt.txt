@@ -88,3 +88,4 @@ nitrogen
 xmobar
 cabal-install
 haskell-platform
+haskell-stack
