@@ -89,3 +89,4 @@ xmobar
 cabal-install
 haskell-platform
 haskell-stack
+xcompmgr
