@@ -87,3 +87,4 @@ libghc-xmonad-contrib-dev
 nitrogen
 xmobar
 cabal-install
+haskell-platform
