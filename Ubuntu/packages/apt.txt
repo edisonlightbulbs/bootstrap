@@ -90,3 +90,4 @@ cabal-install
 haskell-platform
 haskell-stack
 xcompmgr
+redshift-gtk
