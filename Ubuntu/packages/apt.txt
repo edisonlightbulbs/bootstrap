@@ -91,3 +91,4 @@ haskell-platform
 haskell-stack
 xcompmgr
 redshift-gtk
+python3-tk
